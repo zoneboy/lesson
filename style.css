@@ -36,3 +36,15 @@ h3 {
 	color: white;
 	line-height: 2;
 }
+
+@media only screen and (max-width: 900px){
+	header h1 {
+		font-size: 3em;
+	}
+	header h3 {
+		font-size: 1.5em;
+	}
+	.red {
+		line-height: 1.5;
+	}
+}
